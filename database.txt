@@ -1,0 +1,7 @@
+ID: TINYINT , PRIMARY_KEY
+marca: VARCHAR(20) , NOTNULL
+modello: VARCHAR(20) , NOTNULL
+anno mmatricolazione: YEAR , NOTNULL
+carburante: VARCHAR(20)
+cilindrata: VARCHAR(10)
+Km: INT
