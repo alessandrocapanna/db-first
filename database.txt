@@ -1,7 +1,7 @@
-ID: TINYINT , PRIMARY_KEY
-marca: VARCHAR(20) , NOTNULL
-modello: VARCHAR(20) , NOTNULL
-anno mmatricolazione: YEAR , NOTNULL
-carburante: VARCHAR(20)
-cilindrata: VARCHAR(10)
-Km: INT
+ID: numero ,TINYINT , PRIMARY_KEY
+marca: stringa , VARCHAR(20) , NOTNULL
+modello: stringa, VARCHAR(20) , NOTNULL
+anno mmatricolazione: numero, YEAR , NOTNULL
+carburante: stringa, VARCHAR(20)
+cilindrata: stringa, VARCHAR(10)
+Km: numero, INT
